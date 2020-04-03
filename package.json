@@ -1,5 +1,5 @@
 {
-  "name": "react-firebaseui",
+  "name": "react-firebaseui-cs",
   "version": "4.0.0",
   "description": "React wrapper for firebaseui: Javascript library for customizable UI on top of Firebase SDK",
   "files": [
@@ -22,10 +22,10 @@
     "build": "webpack -p && babel src --out-dir dist -s && cp ./types/* README.md LICENSE package.json dist && cd dist && npm install --only=production && cd -",
     "pub": "npm run clean && npm run build && npm publish dist"
   },
-  "author": "Google",
+  "author": "Google, dalibor-123 (fork)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/firebase/firebaseui-web-react.git"
+    "url": "https://github.com/dalibor-123/firebaseui-web-react"
   },
   "license": "Apache-2.0",
   "peerDependencies": {
