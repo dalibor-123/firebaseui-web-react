@@ -37,8 +37,6 @@ var FirebaseAuth = function (_React$Component) {
   FirebaseAuth.prototype.componentDidMount = function componentDidMount() {
     var _this2 = this;
 
-    require('firebaseui/dist/firebaseui.css');
-
     var firebaseui = require('firebaseui');
 
     return firebaseUiDeletion.then(function () {
